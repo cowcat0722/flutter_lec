@@ -1,3 +1,4 @@
+import 'package:airbnb_app/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // debugShowCheckedModeBanner: false,
-    return MaterialApp();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
   }
 }
