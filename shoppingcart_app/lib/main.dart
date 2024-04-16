@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingcart_app/theme.dart';
 
+import 'components/shopping_cart_detail.dart';
 import 'components/shopping_cart_header.dart';
 
 void main() {
@@ -28,6 +29,7 @@ class ShoppingCartPage extends StatelessWidget {
       body: Column(
         children: [
           ShoppingCartHeader(),
+          ShoppingCartDetail(),
         ],
       ),
     );
