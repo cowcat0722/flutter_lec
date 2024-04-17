@@ -7,14 +7,24 @@ class MyCarrotPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.grey[100],
-      child: Center(
-        child: Text(
-          'IndexedStack 5',
-          style: TextStyle(fontSize: 20, color: Colors.black),
+    return Scaffold(
+        appBar: AppBar(
+      title: Row(
+        children: [
+          Text('나의 당근'),
+        ],
+      ),
+      actions: [
+        IconButton(onPressed: () {}, icon: Icon(Icons.settings)),
+      ],
+      bottom: PreferredSize(
+        preferredSize: Size.fromHeight(0.5),
+        child: Divider(
+          thickness: 0.5,
+          height: 0.5,
+          color: Colors.grey,
         ),
       ),
-    );
+    ));
   }
 }
