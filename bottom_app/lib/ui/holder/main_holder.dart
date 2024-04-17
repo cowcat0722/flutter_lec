@@ -1,5 +1,6 @@
 // 이름만 보고 여기 화면에 여러 페이지를 둘 수 있겠구나 생각
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'first/first_page.dart';
 import 'second/second_page.dart';
@@ -37,18 +38,28 @@ class _MainHolderState extends State<MainHolder> {
         // 선택 될 때만 글자가 보임
         showUnselectedLabels: false,
         // 아이콘 색
-        selectedItemColor: Colors.deepOrange,
-        unselectedItemColor: Colors.black,
+        selectedItemColor: Colors.black,
+        unselectedItemColor: Colors.black54,
+
+        backgroundColor: Colors.grey[100],
         // 선택된 아이콘에 색상 보여주기
         currentIndex: _index,
         items: [
           // item 개수는 5개가 최대값, 2개가 최소값
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "1"),
-          BottomNavigationBarItem(icon: Icon(Icons.fastfood), label: "2"),
-          BottomNavigationBarItem(icon: Icon(Icons.safety_check), label: "3"),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.user),
+            label: "",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.comment),
+            label: "",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(FontAwesomeIcons.ellipsisH),
+            label: "",
+          ),
         ],
         onTap: (value) {
-          print("클릭됨 ${value}");
           _index = value;
           setState(() {});
         },

@@ -10,13 +10,18 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        // bottomNavigationBarTheme: BottomNavigationBarThemeData()
+        appBarTheme: const AppBarTheme(
+          elevation: 0.0,
+          backgroundColor: Colors.white,
+          titleTextStyle: TextStyle(color: Colors.black, fontSize: 24),
+          iconTheme: IconThemeData(color: Colors.black),
+        ),
+      ),
       home: MainHolder(),
-      // theme: ThemeData(
-      //   bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      //
-      //   )
-      // ),
     );
   }
 }
