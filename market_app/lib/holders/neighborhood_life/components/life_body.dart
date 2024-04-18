@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:market_app/holders/components/image_container.dart';
+import 'package:market_app/theme.dart';
 
 import '../../../models/neighborhood_life.dart';
 
@@ -39,14 +41,50 @@ class LifeBody extends StatelessWidget {
         vertical: 16,
         horizontal: 16,
       ),
-      child: Container(color: Colors.orange[100], height: 30),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Container(
+            padding: EdgeInsets.all(4),
+            decoration: BoxDecoration(
+              shape: BoxShape.rectangle,
+              borderRadius: BorderRadius.all(Radius.circular(4)),
+              color: Color.fromRGBO(247, 247, 247, 1),
+            ),
+            child:
+                Text(neighborhoodLife.category, style: textTheme().bodyMedium),
+          ),
+          Text(
+            neighborhoodLife.date,
+            style: textTheme().bodyMedium,
+          )
+        ],
+      ),
     );
   }
 
   Padding _buildWriter() {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: Container(color: Colors.red[100], height: 30),
+      child: Row(
+        children: [
+          ImageContainer(
+            borderRadius: 15,
+            imageUrl: neighborhoodLife.profileImgUri,
+            width: 30,
+            height: 30,
+          ),
+          Text.rich(
+            TextSpan(children: [
+              TextSpan(
+                  text: ' ${neighborhoodLife.userName}',
+                  style: textTheme().bodyText1),
+              TextSpan(text: ' ${neighborhoodLife.location}'),
+              TextSpan(text: ' 인증 ${neighborhoodLife.authCount}회'),
+            ]),
+          ),
+        ],
+      ),
     );
   }
 
