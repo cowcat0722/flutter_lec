@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:market_app/holders/chatting/components/chat_container.dart';
 import 'package:market_app/holders/components/appbar_preferred_size.dart';
 import 'package:market_app/models/chat_message.dart';
 
@@ -17,7 +18,7 @@ class ChattingPage extends StatelessWidget {
       body: ListView(
         children: List.generate(
           chatMessageList.length,
-          (index) => Container(),
+          (index) => ChatContainer(chatMessage: chatMessageList[index]),
         ),
       ),
     );
