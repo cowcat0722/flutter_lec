@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'chatting/chatting_page.dart';
 import 'home/home_page.dart';
 import 'my_carrot/my_carrot_page.dart';
-import 'near_me/near_my_page.dart';
+import 'near_me/near_me_page.dart';
 import 'neighborhood_life/neighborhood_life_page.dart';
 
 class MainHolder extends StatefulWidget {
