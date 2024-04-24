@@ -7,8 +7,12 @@ String data = '사과';
 class FruitVM extends StateNotifier<String> {
   FruitVM(super.state);
 
-  void changeData() {
+  void changeDataStrawberry() {
     state = '딸기';
+  }
+
+  void changeDataApple() {
+    state = '사과';
   }
 }
 
@@ -16,5 +20,5 @@ class FruitVM extends StateNotifier<String> {
 // <창고이름, 창고상태 타입>
 // watch or read 할 때 호출 됨
 final fruitProvider = StateNotifierProvider<FruitVM, String>((ref) {
-  return FruitVM('사과');
+  return FruitVM(data);
 });
