@@ -15,6 +15,6 @@ class PostRepository {
     Post post = Post.fromMap(body);
     // print(body);
     // print(body.runtimeType);
-    return post;
+    return Future.delayed(Duration(seconds: 3), () => post);
   }
 }
