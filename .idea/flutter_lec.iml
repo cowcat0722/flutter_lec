@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/airbnb_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/airbnb_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/airbnb_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bottom_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/demoapp/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/demoapp/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/demoapp/build" />
+      <excludeFolder url="file://$MODULE_DIR$/login_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/login_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/login_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/market_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/market_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/market_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/pageview_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/pageview_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/pageview_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_test_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_test_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/profile_test_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/recipe_app2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/scroll_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/scroll_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/scroll_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/shoppingcart_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/shoppingcart_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/shoppingcart_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/stf_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/stf_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/stf_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/store_app2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_riverpod_01/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_riverpod_01/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_riverpod_01/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
